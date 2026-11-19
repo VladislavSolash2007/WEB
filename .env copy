@@ -1,0 +1,12 @@
+# Для Prisma и других утилит:
+DATABASE_URL="postgresql://postgres:postgres@postgres:5432/tasks_db?schema=public"
+
+# Для TypeORM и Docker-compose:
+DB_HOST=postgres
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
+DB_NAME=tasks_db
+
+JWT_SECRET=super_secret_docker_key
+PORT=3000
